@@ -1,17 +1,46 @@
-.card {
-    border-radius: 20px;
-    border-color: yellow;
-    border-width: 5px;
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #ff {
+        color:pink;
+        
+    }
+    #bot {
+        visibility: hidden;
+    }
+
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #bot {
+        visibility: hidden;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #bot {
+        visibility: hidden;
+    }
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
     
+
 }
 
-.btn {
-    background-color: black;
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    #ff {
+        color:red;
+    }
     
-    color: yellow;
-}
 
-.btn:hover{
-    color: white;
-    background-color: black;
-}
+
+ }
